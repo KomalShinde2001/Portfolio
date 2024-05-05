@@ -1,0 +1,72 @@
+
+  .contact {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    background-color: #0F152E;
+    box-shadow: 0 0 5px wheat;
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.contact:hover {
+    background-color: #0F152E; /* Darken background on hover */
+}
+
+.contact-title {
+    position: relative;
+    padding: 30px;
+}
+
+.contact-title h1 {
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.contact-section {
+    display: flex;
+    display: inline;
+    font-size: 20px;
+}
+
+.contact-section:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+}
+
+.contact-detail {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    transition: all 0.5s ease; /* Add transition for smooth effect */
+}
+
+.contact-detail:hover {
+    transform: translateX(8px); /* Move right slightly on hover */
+}
+
+.contact-detail img {
+    height: 50px;
+    width: 50px;
+}
+
+.icon-box {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .contact-detail {
+        flex-direction: column;
+    }
+
+    .contact-detail img {
+        margin: 0 0 10px;
+    }
+}

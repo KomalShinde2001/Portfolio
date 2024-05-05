@@ -1,0 +1,47 @@
+
+
+
+.myimg{
+    filter:drop-shadow(5px 5px 10px  #fb44e5);
+    animation-duration: 4s;
+    animation-name: slidein;
+    filter: blur(8px);
+}
+.preloadingbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #0F152E;
+    overflow: hidden;
+}
+  @keyframes slidein {
+    from {
+      width: 10%;
+    }
+
+    40% {
+
+     width: 40%;
+     filter:drop-shadow(7px 0px 12px  #fb44e5);
+    }
+    60%{
+   
+    filter:drop-shadow(10px 10px 15px  #78b8e6);
+    }
+    90%{
+        filter:drop-shadow(30px 30px 45px #78b8e6);
+        width: 140vw;
+        filter: blur(5px);
+        opacity:0.5;
+
+    }
+    to {
+      filter: blur(80px);
+        filter:drop-shadow(30px 30px 45px #78b8e6);
+        opacity:0.2;
+        width: 180vw;
+
+    }
+  }

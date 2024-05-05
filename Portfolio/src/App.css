@@ -1,0 +1,20 @@
+.keycolor{
+    color: #53A1C8;
+}
+.comm-p{
+    padding: 0 50px;
+}
+.mcomm-p{
+    padding: 0 20px; 
+}
+button{
+    background-color: rgb(6, 6, 40);
+    padding: 7px 20px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border-radius: 25px;
+    border: 2px solid #0F152E;
+    filter: drop-shadow(0 0 10px crimson);
+   box-shadow: 0 0  10px white;
+}
